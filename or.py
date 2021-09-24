@@ -25,4 +25,4 @@ model.fit(X, y)
 _ = model.total_loss()
 
 save_model(model, filename="or.model")
-save_plot(df,"or.png", model) 
+save_plot(df,"or.png", model)
